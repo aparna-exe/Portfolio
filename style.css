@@ -1,0 +1,40 @@
+body {
+    background: #000000; /* Pure Black - Very clean */
+    color: white;
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    width: 300px; /* Makes it look like a phone screen */
+}
+
+h1 { font-size: 24px; margin-bottom: 5px; }
+p { color: #888; margin-bottom: 25px; }
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.btn {
+    text-decoration: none;
+    color: white;
+    background: #1a1a1a;
+    padding: 15px;
+    border-radius: 10px;
+    border: 1px solid #333;
+    transition: 0.2s ease;
+}
+
+.btn:hover {
+    background: white;
+    color: black;
+    transform: scale(1.05); /* Slightly pops out when you hover */
+}
